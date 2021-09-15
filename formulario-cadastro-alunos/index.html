@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Cadastro Alunos</title>
+        <link rel="stylesheet" href="_css/form.css"/>
+    </head>
+    <body>
+        <div>
+            <form action="">
+                <fieldset id="cadastro"><legend>Cadastro</legend>
+                    <p><label for="idFname" id="nome">Nome:</label><br><input type="text" name="fname" id="idFname" placeholder="Nome Completo" required/></p>
+                    <p><label for="idNmatricula" id="matricula">Matricula:</label><br><input type="text" name="nmatricula" id="idNmatricula" placeholder="Número de Matricula" required/></p>
+                    <fieldset id="idFturno"><legend>Turno</legend>
+                        <select id="idSTurno" name="turno" required>
+                            <option value="" disabled selected hidden>Selecione o Turno</option>
+                            <option value="man">Manhã</option>
+                            <option value="tar">Tarde</option>
+                            <option value="noi">Noite</option>
+                        </select>
+                    </fieldset>
+                    <fieldset id="idFcursos"><legend>Cursos</legend>
+                        <select id="idScursos" name="cursos" required>
+                            <option value="" disabled selected hidden>Selecione o Curso</option>
+                            <option value="cc">Ciência da Computação</option>
+                            <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                        </select>
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Enviar" id="idSenviar"/>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>

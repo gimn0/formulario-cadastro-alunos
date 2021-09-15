@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+legend {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+}
+
+label#nome {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+input#idFname {
+    width: 400px;
+    margin-left: 15px;
+}
+
+label#matricula {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+input#idNmatricula {
+    margin-left: 15px;
+}
+
+input#idSenviar {
+    width: 400px;
+    margin-left: 15px;
+    padding: 5px;
+    background: rgb(18, 209, 18);
+    color: #ffffff;
+    font-size: 13pt;
+}
+
+fieldset#cadastro {
+    background: url("../_imagem/icone-cadastro.png") no-repeat 95% 70%;
+}
