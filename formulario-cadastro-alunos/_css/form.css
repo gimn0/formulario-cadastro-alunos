@@ -13,8 +13,13 @@ legend {
 }
 
 fieldset {
-    border-color: #cecece;
+    border: solid thin #888888;
     margin: 20px;
+    border-radius: 4px;
+}
+
+fieldset#cadastro {
+    background: url("../_imagem/icone-cadastro.png") no-repeat 95% 68%;
 }
 
 label#nome {
@@ -22,12 +27,19 @@ label#nome {
     font-weight: bold;
     font-size: 13pt;
     font-family: sans-serif;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 input#idFname {
-    width: 400px;
-    margin-left: 15px;
+    width: 380px;
+    margin-left: 20px;
+    border: solid thin #888888;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input#idFname:hover {
+    background-color: #dedede;
 }
 
 label#matricula {
@@ -35,22 +47,38 @@ label#matricula {
     font-weight: bold;
     font-size: 13pt;
     font-family: sans-serif;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 input#idNmatricula {
-    margin-left: 15px;
+    margin-left: 20px;
+    border: solid thin #888888;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input#idNmatricula:hover {
+    background-color: #dedede;
 }
 
 input#idSenviar {
-    width: 400px;
-    margin-left: 15px;
+    width: 390px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     padding: 5px;
-    background: rgb(18, 209, 18);
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     font-size: 13pt;
+    border: solid thin #888888;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-fieldset#cadastro {
-    background: url("../_imagem/icone-cadastro.png") no-repeat 95% 70%;
+
+input#idSenviar:hover {
+    opacity: 1;
+    background: #4caf50;
+    color: #ffffff;
 }
+
