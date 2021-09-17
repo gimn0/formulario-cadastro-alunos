@@ -7,16 +7,16 @@
     </head>
     <body>
         <div class="cadastro-aluno">
-            <form class="form" action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+            <form class="form" method="POST">
                 <fieldset id="cadastro"><legend>Cadastro</legend>
                     <p><label for="idFname" id="nome">Nome:</label><br><input type="text" name="fname" id="idFname" placeholder="Nome Completo*" required/></p>
                     <p><label for="idNmatricula" id="matricula">Matrícula:</label><br><input type="text" name="nmatricula" id="idNmatricula" placeholder="Número de Matrícula*" required/></p>
                     <fieldset id="idFturno"><legend>Turno</legend>
                         <select id="idSTurno" name="turno" required>
                             <option value="" disabled selected hidden>Selecione o Turno*</option>
-                            <option value="man">Manhã</option>
-                            <option value="tar">Tarde</option>
-                            <option value="noi">Noite</option>
+                            <option value="manha">Manhã</option>
+                            <option value="tarde">Tarde</option>
+                            <option value="noite">Noite</option>
                         </select>
                     </fieldset>
                     <fieldset id="idFcursos"><legend>Cursos</legend>
